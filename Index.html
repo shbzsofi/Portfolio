@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shahbaz Mohd - Educator Portfolio</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --dark: #333;
+            --light: #f4f4f4;
+            --white: #fff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            background-color: var(--light);
+        }
+
+        header {
+            background: var(--primary);
+            color: var(--white);
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 0.5rem;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        section {
+            background: var(--white);
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: var(--primary);
+            margin-bottom: 1rem;
+            border-bottom: 2px solid var(--secondary);
+            display: inline-block;
+            padding-bottom: 0.2rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        .subjects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 1rem;
+            list-style: none;
+        }
+
+        .subjects li {
+            background: var(--light);
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            font-weight: bold;
+            color: var(--primary);
+            border-left: 4px solid var(--secondary);
+        }
+
+        .cta-btn {
+            display: inline-block;
+            background: var(--secondary);
+            color: var(--white);
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .cta-btn:hover {
+            background: #2980b9;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: var(--primary);
+            color: var(--white);
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Shahbaz Mohd</h1>
+        <p>Educator & Founder of Abid Sir's Learning Academy</p>
+    </header>
+
+    <div class="container">
+        
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Welcome to my professional portfolio. I am dedicated to empowering young minds through quality education, making complex concepts easy to understand, and fostering a lifelong love for learning.</p>
+        </section>
+
+        <section id="academy">
+            <h2>Abid Sir's Learning Academy</h2>
+            <p>As the founder and lead educator at <strong>Abid Sir's Learning Academy</strong>, I provide structured coaching, custom practice tests, and worksheets tailored to help primary and secondary students excel academically.</p>
+        </section>
+
+        <section id="subjects">
+            <h2>Subjects I Teach</h2>
+            <ul class="subjects">
+                <li>Mathematics</li>
+                <li>English Grammar</li>
+                <li>Python Programming</li>
+                <li>Computer Fundamentals</li>
+            </ul>
+        </section>
+
+        <section id="youtube">
+            <h2>YouTube Channel</h2>
+            <p>I also share educational content, tutorials, and quizzes on my YouTube channel. Join our growing community of learners to access free resources and revision material.</p>
+            <a href="#" class="cta-btn">Visit My YouTube Channel</a>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Shahbaz Mohd. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
